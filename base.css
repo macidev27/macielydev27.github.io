@@ -1,6 +1,10 @@
 /* =========================
    ESTILO BASE DO PORTFÓLIO
    ========================= */
+/* ----- Reset básico ----- */
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Playfair Display", serif;
@@ -11,7 +15,7 @@ body {
     line-height: 1.6;
 }
 
-/* ----- Cabeçalho ----- */
+/* ----- HEADER----- */
 header {
     background: linear-gradient(90deg, #a86ff0, #79d6f0);
     color: white;
@@ -35,7 +39,7 @@ img, video {
     height: auto;
 }
 
-/* ======== ABAS (TABS) ======== */
+/* ======== MENU ======== */
 .abas {
     display: flex;
     justify-content: center;
@@ -64,10 +68,10 @@ img, video {
     border-bottom: 3px solid white;
 }
 
-/* ======== CONTEÚDO ======== */
+/* ======== SEÇÕES ======== */
 .conteudo {
     display: none;
-    padding: 30px 5%;
+    padding: 30px 20px;
     border-bottom: 1px solid #eee;
 }
 
@@ -90,6 +94,7 @@ section h2, h3 {
 }
 
 section p {
+    margin-bottom: 30px;
     text-align: justify;
 }
 
@@ -126,9 +131,6 @@ td, th {
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-}
     /* ----- Formulário ----- */
 form {
     background: #faf5ff;
@@ -171,25 +173,18 @@ footer {
     font-size: 0.9rem;
 }
 
+/* ======== RESPONSIVO ======== */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 1.8rem;
+    body {
+        font-size: 15px;
     }
-
-    .conteudo {
-        padding: 20px 5px;
+    h1 {
+        font-size: 1.6rem;
     }
-
-    #habilidades ul {
-        columns: 1;
+    h2 {
+        font-size: 1.3rem;
     }
-
-    .abas {
-        padding: 8px 12px;
-        font-size: 14px;
-    }
-
-    table {
-        font-size: 14px;
+    p {
+        text-align: left;
     }
 }
