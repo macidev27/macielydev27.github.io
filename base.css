@@ -113,6 +113,7 @@ table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
+    front-size: 14px;
 }
 
 iframe {
@@ -132,47 +133,12 @@ td, th {
     text-align: center;
 }
 
-    /* ----- Formulário ----- */
-form {
-    background: #faf5ff;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 500px;
-    margin: 20px auto;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+    /* ----- CONTATO ----- */
 
-form input, form textarea, form button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: inherit;
-}
 
-form button {
-    background-color: #8a3ffc;
-    color: white;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
-form button:hover {
-    background-color: #79d6f0;
-}
 
-/* ----- Rodapé ----- */
-footer {
-    background-color: #8a3ffc;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 40px;
-    font-size: 0.9rem;
-}
+
 
 /* ======== RESPONSIVO ======== */
 @media (max-width: 768px) {
