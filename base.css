@@ -1,6 +1,24 @@
 /* =========================
    ESTILO BASE DO PORTFÓLIO
    ========================= */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos padrão (para desktop) */
+.container {
+    width: 80%;
+}
+
+/* Celulares (telas menores que 600px) */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
 body {
     font-family: "Playfair Display", serif;
     background-color: #fdfdfd;
