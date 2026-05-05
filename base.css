@@ -176,6 +176,22 @@ footer {
 
 /* ======== RESPONSIVO ======== */
 @media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    .conteudo {
+        padding: 20px 5px;
+    }
+    #habilidades ul {
+        columns: 1;
+    }
+    .abas {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+    table {
+        font-size: 14px;
+    }
     body {
         font-size: 15px;
     }
@@ -187,5 +203,12 @@ footer {
     }
     p {
         text-align: left;
+    }
+    .abas {
+        gap: 5px;
+    }
+    .aba {
+        padding: 8px 10px;
+        font-size: 13px;
     }
 }
