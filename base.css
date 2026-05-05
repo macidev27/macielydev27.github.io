@@ -6,187 +6,188 @@
         width: 100%;
         padding: 10px;
     }
-}
-body {
-    font-family: "Playfair Display", serif;
-    background-color: #fdfdfd;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
 
-/* ----- Cabeçalho ----- */
-header {
-    background: linear-gradient(90deg, #a86ff0, #f7b2f0);
-    color: white;
-    text-align: center;
-    padding: 2rem 1rem;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
+    body {
+        font-family: "Playfair Display", serif;
+        background-color: #fdfdfd;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
 
-header h1 {
-    margin-bottom: 0.3rem;
-    font-size: 2.2rem;
-}
+    /* ----- Cabeçalho ----- */
+    header {
+        background: linear-gradient(90deg, #a86ff0, #79d6f0);
+        color: white;
+        text-align: center;
+        padding: 2rem 1rem;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
 
-header p {
-    font-style: italic;
-    margin-top: 0;
-}
+    header h1 {
+        margin-bottom: 0.3rem;
+        font-size: 2.2rem;
+    }
 
-/* ======== ABAS (TABS) ======== */
-.abas {
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(90deg, #a86ff0, #f7b2f0);
-    gap: 15px;
-    padding: 10px 0;
-}
+    header p {
+        font-style: italic;
+        margin-top: 0;
+    }
 
-.aba {
-    background: transparent;
-    border: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
+    /* ======== ABAS (TABS) ======== */
+    .abas {
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(90deg, #a86ff0, #f7b2f0);
+        gap: 15px;
+        padding: 10px 0;
+    }
 
-.aba:hover {
-    color: #ffe6ff;
-    text-decoration: underline;
-}
+    .aba {
+        background: transparent;
+        border: none;
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
 
-.aba.ativa {
-    border-bottom: 3px solid white;
-}
+    .aba:hover {
+        color: #ffe6ff;
+        text-decoration: underline;
+    }
 
-/* ======== CONTEÚDO ======== */
-.conteudo {
-    display: none;
-    padding: 40px 10%;
-    border-bottom: 1px solid #eee;
-}
+    .aba.ativa {
+        border-bottom: 3px solid white;
+    }
 
-.conteudo.ativo {
-    display: block;
-    animation: aparecer 0.4s ease-in-out;
-}
+    /* ======== CONTEÚDO ======== */
+    .conteudo {
+        display: none;
+        padding: 40px 10%;
+        border-bottom: 1px solid #eee;
+    }
 
-@keyframes aparecer {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
+    .conteudo.ativo {
+        display: block;
+        animation: aparecer 0.4s ease-in-out;
+    }
 
-section h2, h3 {
-    text-align: center;
-    color: #8a3ffc;
-    border-bottom: 2px solid #e5c3ff;
-    display: inline-block;
-    margin-bottom: 1rem;
-}
+    @keyframes aparecer {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
 
-section p {
-    text-align: justify;
-}
+    section h2, h3 {
+        text-align: center;
+        color: #8a3ffc;
+        border-bottom: 2px solid #e5c3ff;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
 
-/* ----- Imagens e vídeos ----- */
-section img, section video {
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
+    section p {
+        text-align: justify;
+    }
 
-/* ----- Lista de habilidades ----- */
-#habilidades ul {
-    list-style: square;
-    columns: 2;
-    max-width: 500px;
-    margin: auto;
-}
+    /* ----- Imagens e vídeos ----- */
+    section img, section video {
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
 
-/* ----- Tabela de formação ----- */
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
+    /* ----- Lista de habilidades ----- */
+    #habilidades ul {
+        list-style: square;
+        columns: 2;
+        max-width: 500px;
+        margin: auto;
+    }
 
-th {
-    background-color: #dcb8ff;
-    color: #333;
-}
+    /* ----- Tabela de formação ----- */
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+    }
 
-td, th {
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
+    th {
+        background-color: #dcb8ff;
+        color: #333;
+    }
 
-/* ----- Tabela de formação ----- */
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
+    td, th {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
 
-th {
-    background-color: #dcb8ff;
-    color: #333;
-}
+    /* ----- Tabela de formação ----- */
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+    }
 
-td, th {
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
+    th {
+        background-color: #dcb8ff;
+        color: #333;
+    }
 
-
-/* ----- Formulário ----- */
-form {
-    background: #faf5ff;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 500px;
-    margin: 20px auto;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+    td, th {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
 
 
+    /* ----- Formulário ----- */
+    form {
+        background: #faf5ff;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 500px;
+        margin: 20px auto;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
 
 
 
-form input, form textarea, form button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: inherit;
-}
 
-form button {
-    background-color: #8a3ffc;
-    color: white;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
-form button:hover {
-    background-color: #6f2dbd;
-}
+    form input, form textarea, form button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: inherit;
+    }
+
+    form button {
+        background-color: #8a3ffc;
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    form button:hover {
+        background-color: #6f2dbd;
+    }
 
 /* ----- Rodapé ----- */
-footer {
-    background-color: #8a3ffc;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 40px;
-    font-size: 0.9rem;
+    footer {
+        background-color: #8a3ffc;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 40px;
+        font-size: 0.9rem;
+    }
 }
