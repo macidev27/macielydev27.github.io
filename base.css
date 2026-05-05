@@ -39,7 +39,7 @@
     .abas {
         display: flex;
         justify-content: center;
-        background: linear-gradient(90deg, #a86ff0, #f7b2f0);
+        background: linear-gradient(90deg, #a86ff0, #79d6f0);
         gap: 15px;
         padding: 10px 0;
     }
@@ -83,7 +83,7 @@
     section h2, h3 {
         text-align: center;
         color: #8a3ffc;
-        border-bottom: 2px solid #e5c3ff;
+        border-bottom: 2px solid #79d6f0;
         display: inline-block;
         margin-bottom: 1rem;
     }
@@ -116,7 +116,7 @@
     }
 
     th {
-        background-color: #dcb8ff;
+        background-color: #79d6f0;
         color: #333;
     }
 
@@ -134,7 +134,7 @@
     }
 
     th {
-        background-color: #dcb8ff;
+        background-color: #79d6f0;
         color: #333;
     }
 
